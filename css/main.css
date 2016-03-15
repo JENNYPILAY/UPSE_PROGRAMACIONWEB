@@ -84,8 +84,13 @@ nav li {
 	}
 nav a {
 	font-weight:800; 
-	padding: 15px 10px;}
-	
+	padding: 15px 10px;
+}
+		nav a {
+	color:#F39C12;
+}
+
+
 /*****footer*******/
 
 footer
@@ -118,9 +123,9 @@ footer
 	margin: 0;
 	font-size: 0.9em;
 	}
-	.contact-info a {display: block;
-	
-	min-height:  20 px;
+	.contact-info a {
+	display: block;
+	min-height:  20px;
 	background-repeat: no-repeat;
 	background-size: 20px 20px;
 	padding:  0 0 0 30px;
@@ -129,7 +134,7 @@ footer
 	/***iconos de contacto***/
 
 	}
-	
+
 .contact-info li.phone a{
 	background-image: url('../img/phone.png');
 }
@@ -139,13 +144,29 @@ footer
 .contact-info li.twitter a{
 	background-image: url('../img/twitter.png');
 }	
-.contact-info li.telecomunicaciones a{
+
+.carrera-info {
+	
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	font-size: 0.9em;
+	}
+.carrera-info a {display: block;
+	
+	min-height:  20px;
+	background-repeat: no-repeat;
+	background-size: 20px 20px;
+	padding:  0 0 0 30px;
+	margin: 0 0 10px;
+}
+.carrera-info li.telecomunicaciones a{
 	background-image: url('../img/telecomunicaciones.jpg');
 }
-.contact-info li.desarrolloemprearial a{
-	background-image: url('../img/desarrolloemprearial.jpg');
+.carrera-info li.desarrolloempresarial a{
+	background-image: url('../img/desarrolloempresarial.png');
 }	
-.contact-info li.biologiamarina a{
+.carrera-info li.biologiamarina a{
 	background-image: url('../img/biologiamarina.jpg');
 }	
 
